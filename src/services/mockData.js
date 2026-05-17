@@ -1,0 +1,78 @@
+export const mockPackages = [
+  {
+    guia: 'PKG-1000000001',
+    remitente: 'Ana Torres',
+    destinatario: 'Carlos Mendoza',
+    estado: 'En ruta',
+    coordenadas: { lat: -12.097, lng: -77.0354 },
+    dimensiones: { alto: 30, ancho: 25, peso: 2.5 },
+    direccionDestino: 'Av. Javier Prado Este 456, San Isidro',
+  },
+  {
+    guia: 'PKG-1000000002',
+    remitente: 'Luis Ramírez',
+    destinatario: 'Patricia Soto',
+    estado: 'En bodega',
+    coordenadas: { lat: -12.1219, lng: -77.0297 },
+    dimensiones: { alto: 15, ancho: 10, peso: 0.8 },
+    direccionDestino: 'Calle Shell 250, Miraflores',
+  },
+  {
+    guia: 'PKG-1000000003',
+    remitente: 'Empresa XYZ S.A.',
+    destinatario: 'Roberto Castro',
+    estado: 'Entregado',
+    coordenadas: { lat: -12.1479, lng: -76.9965 },
+    dimensiones: { alto: 50, ancho: 40, peso: 8.0 },
+    direccionDestino: 'Av. Primavera 1200, Surco',
+  },
+  {
+    guia: 'PKG-1000000004',
+    remitente: 'María López',
+    destinatario: 'Jorge Vásquez',
+    estado: 'Registrado',
+    coordenadas: { lat: -12.0464, lng: -77.0428 },
+    dimensiones: { alto: 20, ancho: 15, peso: 1.2 },
+    direccionDestino: 'Jr. Áncash 101, Lima Centro',
+  },
+  {
+    guia: 'PKG-1000000005',
+    remitente: 'Tienda Online S.A.',
+    destinatario: 'Sandra Flores',
+    estado: 'En ruta',
+    coordenadas: { lat: -12.1022, lng: -76.9988 },
+    dimensiones: { alto: 25, ancho: 20, peso: 3.5 },
+    direccionDestino: 'Av. Circunvalación 350, San Borja',
+  },
+]
+
+export const mockRepartidores = [
+  {
+    id: 1,
+    nombre: 'Pedro Alvarado',
+    estado: 'Activo',
+    lat: -12.0464,
+    lng: -77.0428,
+  },
+  {
+    id: 2,
+    nombre: 'Juan Quispe',
+    estado: 'Activo',
+    lat: -12.1219,
+    lng: -77.0297,
+  },
+  {
+    id: 3,
+    nombre: 'Rosa Mamani',
+    estado: 'En descanso',
+    lat: -12.097,
+    lng: -77.0354,
+  },
+  {
+    id: 4,
+    nombre: 'Diego Salas',
+    estado: 'Inactivo',
+    lat: -12.1479,
+    lng: -76.9965,
+  },
+]
